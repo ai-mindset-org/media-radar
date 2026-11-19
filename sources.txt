@@ -1,0 +1,23 @@
+# радар медиа · источники
+# строка: язык | название | адрес [| сколько часов брать, по умолчанию 48] [| уровень]
+# уровень: редакция, таблоид, платформа или поиск – стартовая достоверность,
+#   правила оценки в Obsidian: rules/media-radar {guide} News Quality Assessment
+# адрес: RSS сайта, t.me/канал (открытая страница без аккаунта)
+#        или news: запрос – поиск Google News по словам (OR – «или», кавычки – точная фраза)
+# строку можно закомментировать решёткой – источник выключится со следующего сбора
+
+# персоны и скандалы
+en | Page Six | https://pagesix.com/feed/ | 48 | таблоид
+ru | SHOT | t.me/shot_shot | 48 | таблоид
+ru | шоу-бизнес и блогеры | news: скандал блогер OR звезда OR шоу-бизнес OR рассталась OR поссорились
+
+# медиа и культура
+en | Variety | https://variety.com/feed/
+en | Press Gazette | https://pressgazette.co.uk/feed/
+en | Tubefilter · креаторы | https://www.tubefilter.com/feed/
+ru | Sostav · медиа и реклама | https://www.sostav.ru/rss
+
+# бизнес и тренды
+ru | vc.ru | https://vc.ru/rss/all | 72 | платформа
+en | соло-бизнес и тренды | news: solopreneur OR "one-person business" OR "one person company" OR "portfolio career" OR "AI employees" | 168
+ru | соло-бизнес и тренды | news: самозанятые OR "бизнес одного человека" OR соло-предприниматель OR "портфельная карьера" OR "цифровые сотрудники" | 168
